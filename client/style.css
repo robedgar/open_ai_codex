@@ -14,16 +14,21 @@ body {
 #logo {
   width: 200px;
   height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1 {
-  font-size: 70px;
+#title {
+  font-size: 60px;
   font-weight: 700;
   background-image: linear-gradient(to left, #553c9ad3, #b393d378);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0px 2px 10px rgba(179, 147, 211, 0.027);
+  padding-top: 0.5rem;
+  padding-left: 1rem;
 }
 
 #app {
@@ -168,4 +173,6 @@ footer {
   font-size: 18px;
   text-align: center;
   padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
